@@ -1,0 +1,50 @@
+.select-concentration-main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 100%;
+}
+
+.select-concentration-header {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  height: 50px;
+  background-color: navy;
+  color: white;
+  padding-left: 2%;
+}
+
+.next-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 25%;
+  background-color: blue;
+  color: white;
+  margin: 0.5rem;
+}
+.selected-concentrations-list-main-container {
+  background-color: skyblue;
+  width: 100%;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+.selected-concentrations-list {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  height: 50px;
+}
+
+.input-for-concentration {
+  width: 100px;
+  height: 50%;
+  background-color: white;
+  border: none;
+}
